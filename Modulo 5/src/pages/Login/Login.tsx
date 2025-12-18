@@ -70,7 +70,7 @@ const Login: React.FC = () => {
             <label>Email:</label>
             <input
               type="email"
-              placeholder="professor@escola.com"
+              placeholder="prof@escola.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               disabled={carregando}
